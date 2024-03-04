@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assest/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <title >freshscarts</title>
+</head>
+<body>  
+    <div class="super m-0 ps-3">
+        <p>
+            Super Value Deals - Save more with coupons
+        </p>
+    </div>
+    <div class="container-fluid public px-3">
+        <div class="rlogo d-flex">
+            <div class="container-fluid rlogos p-0">
+                <a class="btn btn-success" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/img/freshcart-logo.svg"
+                                alt="">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success bg-success text-white"  type="submit">Search</button>
+                        </form>
+                        <div class="lin">
+                            <ul>
+                                <li><a class="dropdown-item" href="#">Home</a></li>
+                                <li><a class="dropdown-item" href="#">Shop</a></li>
+                                <li><a class="dropdown-item" href="#">Store</a></li>
+                                <li><a class="dropdown-item" href="#">Account</a></li>
+                                <li><a class="dropdown-item" href="#">Doucumention</a></li>
+                                <li><a class="dropdown-item" href="#">Mega menu</a></li>
+                                <li><a class="dropdown-item" href="#">Docs</a></li>
+                                <li><a class="dropdown-item" href="#">Create Account</a></li>
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rlogos">
+                <img src="/img/freshcart-logo.svg" class="ms-3" alt="">
+            </div>
+        </div>
+        <!-- fkkr -->
+        <nav>
+            <div class="rnav row m-0 justify-content-between  p-0">
+                <div class="col  p-0 pt-2 d-flex home2">
+                    <div class="home">
+                        <button class="btn btn-success" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                    <a class="navbar-brand m-0" href="/index.html"><img src="/img/freshcart-logo.svg"
+                            alt=""></a>
+                </div>
+
+                <div class=" col seo pt-2">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn bg-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col p-0  pt-2 d-flex justify-content-end">
+
+                    <div class="icons d-flex justify-content-between p-0">
+                        <a href="#"><i class="fa-regular fa-heart px-2"></i></a>
+                        <a href="#"><i class="fa-solid fa-user px-2"></i></a>
+                        <a href="#"><i class="fa-solid fa-bag-shopping px-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row rohrow mt-4 m-0s">
+            <div class="col-8 d-flex">
+                <span class="all_department">
+                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All Department
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </span>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link dropdown-toggle p-2 ps-5" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Store
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Mega menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Page
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Documentaion
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown list">
+                    <a class="nav-link  p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Docs
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                </span>
+            </div>
+        </div>
+        <div class="container-fluid p-0 mt-4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner p-0 m-0 ">
+                    <div class="carousel-item  backgroundimg rounded-3 col-12 active">
+                        <div class="texts">
+                            <p class="sale">Opening sale Discount 50%.</p>
+                            <h3>SuperMarket For</h3>
+                            <h3>Fresh Grocery</h3>
+                            <p>Introduction a new model for online Grocery<br> shopping
+                                and convient home delivery</p>
+                            <button class="now">
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item rounded-3 col-12 backgroundimg2">
+                        <div class="texts">
+                            <p class="sale">Free Shipping Oders Over $100.</p>
+                            <h3>Free Shipping</h3>
+                            <h3>Oders Over <span>Rs-500</span> </h3>
+                            <p>Free Shipping to first-time customers <br>only, for Coustmor
+                                 Discounts are applied..</p>
+                            <button class="now">
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row p-0">
+                    <div class="col py-4 ps-0">
+                        <h2>Featured Categories</h2>
+                    </div>
+                    <div class="owl-carousel owl-theme p-0">
+                        <div class="item">
+                            <div class=" tbr">
+                                <img src="/img/category-baby-care.jpg" alt="">
+                                <a href="#">Bady-Care</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr">
+                                <img src="/img/category-atta-rice-dal.jpg" alt="">
+                                <a href="#">Atta-rice_dal</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr"><img src="/img/category-bakery-biscuits.jpg" alt="">
+                                <a href="#">biscuits</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr"><img src="/img/category-dairy-bread-eggs.jpg" alt="">
+                                <a href="#">Dairy-bread</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr "><img src="/img/category-pet-care.jpg" alt="">
+                                <a href="#">Pet-care</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class=" tbr">
+                                <img src="/img/category-baby-care.jpg" alt="">
+                                <a href="#">Bady-Care</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr">
+                                <img src="/img/category-atta-rice-dal.jpg" alt="">
+                                <a href="#">Atta-rice_dal</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr"><img src="/img/category-bakery-biscuits.jpg" alt="">
+                                <a href="#">biscuits</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr"><img src="/img/category-dairy-bread-eggs.jpg" alt="">
+                                <a href="#">Dairy-bread</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class=" tbr "><img src="/img/category-pet-care.jpg" alt="">
+                                <a href="#">Pet-care</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-0 p- mt-4 d-flex justify-content-between">
+            <div class="text col grocery col m-1 px-5 py-5">
+                <h1>Fruits and Vegitables</h1>
+                <p>Get Up to 30% Off</p>
+                <button class="now">
+                    Shop Now
+                </button>
+            </div>
+            <div class="text col grocery2 col m-1 px-5 py-5">
+                <h1>Freshly Baked Buns</h1>
+                <p>Get Up to 25% Off</p>
+                <button class="now">
+                    Shop Now
+                </button>
+            </div>
+        </div>
+        <div class="container-fluid p-0 m-0">
+            <h3 class="my-3">Product Popular</h3>
+            <div class="row  Popular  d-flex m-0">
+                <div class=" col m-2 layers">
+                    <div class=" layes img-fluid">
+                        <img src="/img/img1.jpeg" class="img-fluid" alt="img">
+                        <div class="div1">
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="star p-2">
+                        <h6 class=" snack">Snack & Munchies</h6>
+                        <h6>Haldiram's Sev Bhujia</h6>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="add">
+                        <p class="mt-1">$18</p>
+                        <button>+ Add</button>
+                    </div>
+                </div>
+                <div class=" col m-2 layers">
+                    <div class=" layes img-fluid">
+                        <img src="/img/img2.jpeg" class="img-fluid" alt="img">
+                        <div class="div1">
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="star p-2">
+                        <h6 class="snack">Snack & Munchies</h6>
+                        <h6>Haldiram's Sev Bhujia</h6>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="add">
+                        <p class="mt-1">$18</p>
+                        <button>+ Add</button>
+                    </div>
+                </div>
+                <div class=" col  m-2 layers">
+                    <div class=" layes img-fluid">
+                        <img src="/img/img3.jpeg" class="img-fluid" alt="img">
+                        <div class="div1">
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="star p-2">
+                        <h6 class="snack">Snack & Munchies</h6>
+                        <h6>Haldiram's Sev Bhujia</h6>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="add">
+                        <p class="mt-1">$18</p>
+                        <button>+ Add</button>
+                    </div>
+                </div>
+                <div class=" col  m-2 layers">
+                    <div class=" layes img-fluid">
+                        <img src="img/img4.jpeg" class="img-fluid" alt="img">
+                        <div class="div1">
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="star p-2">
+                        <h6 class="snack">Snack & Munchies</h6>
+                        <h6>Haldiram's Sev Bhujia</h6>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="add">
+                        <p class="mt-1">$18</p>
+                        <button>+ Add</button>
+                    </div>
+                </div>
+                <div class="col  m-2 layers">
+                    <div class=" layes img-fluid">
+                        <img src="/img/img5.jpeg" class="img-fluid" alt="img">
+                        <div class="div1">
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="star p-2">
+                        <h6 class="snack">Snack & Munchies</h6>
+                        <h6>Haldiram's Sev Bhujia</h6>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="add">
+                        <p class="mt-1">$18</p>
+                        <button>+ Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 m-0">
+            <div class="row p-0 mt-3 m-0">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 mt-2 ">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators ">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner p-0 m-0 rounded-3">
+                            <div class="carousel-item  backgroundimg rounded-3 col-12 active">
+                                <div class="texts baner1">
+                                    <p class="sale">Exclusive Offer 15%</p>
+                                    <h3>Chocozay wafer-</h3>
+                                    <h3>Rolls Deals</h3>
+                                    <p>Only the this.... week Don't miss</p>
+                                    <button class="now">
+                                        Shop Deals Now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="carousel-item rounded-3 col-12 backgroundimg2">
+                                <div class="texts baner2">
+                                    <p class="sale">Exclusive 15%</p>
+                                    <h3>Cokolandni Kulutici</h3>
+                                    <h3>Lasta</h3>
+                                    <p>Only on this... week don't miss</p>
+                                    <button class="now">
+                                        Shop This Week Offers
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="carousel-item rounded-3 col-12 backgroundimg2">
+                                <div class="texts baner3">
+                                    <p class="sale">Exclusive 15%</p>
+                                    <h3>Best online</h3>
+                                    <h3>Deals, Free Stuff</h3>
+                                    <p>Only on this... week don't miss</p>
+                                    <button class="now">
+                                        Get Deals Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-5 col-md-12 col-12 p-0  ">
+                    <div class=" col  mx-3 ads1">
+                        <h3 class="m-0">10% cashback on</h3>
+                        <h3> personal care</h3>
+                        <p class="m-0">Max cashback: $12<br>
+                            Code: CARE12</p>
+                        <div class="btn adss p-1">
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                    <div class=" col mx-3 ads2">
+                        <h3 class="m-0">Say yes to</h3>
+                        <h3> season's fresh</h3>
+                        <p class="m-0">Refresh your day<br>
+                            the fruity way</p>
+                        <div class="btn adss p-1">
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0 m-0">
+                <h3 class="my-3 mx-2">Daily Best Sells</h3>
+                <div class="row m-0 p-0 ">
+                    <div class="col  m-2  layers bees">
+                        <div class="star p-2">
+                            <h3>100% Organic Coffee Beans</h3>
+                            <p>Get the best deal before close.</p>
+                            <button class="gren">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col  m-2 layers">
+                        <div class="layes ">
+                            <img src="/img/pic2.jpeg" height="180" alt="img">
+                        </div>
+                        <div class="star p-2">
+                            <h6 class="snack">Snack & Munchies</h6>
+                            <h6>Haldiram's Sev Bhujia</h6>
+                        </div>
+                        <div class="add">
+                            <p class="mt-1">$18</p>
+                            <div class="star p-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="to">
+                            <button>+ Add to Shop</button>
+                        </div>
+                        <div class="diver">
+                            <div class="divs">
+                                <p>1698</p>
+                                <span>
+                                    <p>Days</p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>5</p>
+                                <span>
+                                    <p>Hours
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>55</p>
+                                <span>
+                                    <p>Mins</p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>3</p>
+                                <span>
+                                    <p>Sec</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m-2 layers">
+                        <div class="layes ">
+                            <img src="/img/pic3.jpeg" height="180" alt="img">
+                        </div>
+                        <div class="star p-2">
+                            <h6 class="snack">Snack & Munchies</h6>
+                            <h6>Haldiram's Sev Bhujia</h6>
+                        </div>
+                        <div class="add">
+                            <p class="mt-1">$18</p>
+                            <div class="star p-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="to">
+                            <button>+ Add to Shop</button>
+                        </div>
+                        <div class="diver">
+                            <div class="divs">
+                                <p>1698</p>
+                                <span>
+                                    <p>Days</p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>5</p>
+                                <span>
+                                    <p>Hours
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>55</p>
+                                <span>
+                                    <p>Mins</p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>3</p>
+                                <span>
+                                    <p>Sec</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m-2 layers">
+                        <div class="layes ">
+                            <img src="/img/pic4.jpeg" height="180" alt="img">
+                        </div>
+                        <div class="star p-2">
+                            <h6 class="snack">Snack & Munchies</h6>
+                            <h6>Haldiram's Sev Bhujia</h6>
+                        </div>
+                        <div class="add">
+                            <p class="mt-1">$18</p>
+                            <div class="star p-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="to">
+                            <button>+ Add to Shop</button>
+                        </div>
+                        <div class="diver">
+                            <div class="divs">
+                                <p>1698</p>
+                                <span>
+                                    <p>Days</p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>5</p>
+                                <span>
+                                    <p>Hours
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>55</p>
+                                <span>
+                                    <p>Mins</p>
+                                </span>
+                            </div>
+                            <div class="divs">
+                                <p>3</p>
+                                <span>
+                                    <p>Sec</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-5 border-top border-secondary">
+                <div class="row m-0 p-0">
+                    <div class="col iphone p-5">
+                        <img src="/img/iphone-2.png" alt="">
+                    </div>
+                    <div class="col app p-0">
+                        <div class="col">
+                            <h2>Get the FreshCart app</h2>
+                            <p class="my-2">We will send you a link, open it on your phone to download the app</p>
+                            <div class="mail d-flex">
+                                <input type="radio" class="my-1"> <label class="my-1 ms-1">Email</label>
+                                <input type="radio" class="ms-1 my-1"> <label class="my-1 ms-1">Phone</label>
+                            </div>
+                            <div class="numbers  share my-1">
+                                <input type="number" placeholder="Phone" class="p-1 ps-2">
+                                <a href="#" class="px-2 py-2 bg-success text-white text-decoration-none ms-1">Share app
+                                    link</a>
+                            </div>
+                            <p class="my-3">Download app from</p>
+                            <div class="download d-flex">
+                                <a href="#"> <img src="/img/appstore-btn.svg" class="img-fluid" alt=""></a>
+                                <a href="#"> <img src="/img/googleplay-btn.svg" class="img-fluid" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="my-lg-14 my-5 ">
+                <div class="container ">
+                    <div class="row p-0 ">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="mb-8 mb-xl-0">
+                                <div class="mb-6"><img src="/img/clock.svg" alt=""></div>
+                                <h3 class="h5 mb-3">10 minute grocery now</h3>
+                                <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup
+                                    stores near you.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="mb-8 mb-xl-0">
+                                <div class="mb-6"><img src="/img/gift.svg" alt=""></div>
+                                <h3 class="h5 mb-3">Best Prices &amp; Offers</h3>
+                                <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get
+                                    best pricess &amp; offers.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="mb-8 mb-xl-0">
+                                <div class="mb-6"><img src="/img/package.svg" alt=""></div>
+                                <h3 class="h5 mb-3">Wide Assortment</h3>
+                                <p>Choose from 5000+ products across food, personal care, household, bakery, veg and
+                                    non-veg &amp; other categories.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="mb-8 mb-xl-0">
+                                <div class="mb-6"><img src="/img/refresh-cw.svg" alt=""></div>
+                                <h3 class="h5 mb-3">Easy Returns</h3>
+                                <p>
+                                    Not satisfied with a product? Return it at the doorstep &amp; get a refund within
+                                    hours. No questions asked
+                                    <a href="#!" class="text-success">policy</a>
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="bg-dark mt-4 my-0"
+        style="background: url(/img/pattern.svg) no-repeat; background-size: cover; background-position: center;background-color:#8ee3b3 !important;">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-1 col-lg-10">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 p-3">
+                            <div class="text-black mt-8 mt-lg-0">
+                                <span>$30 discount for your first order</span>
+                                <h2 class="h2 text-black my-4">Get top deals, latest trends, and more.</h2>
+                                <p class="text-black-20">Join our email subscription now to get updates on
+                                    promotions and coupons.</p>
+                                <form class="row g-3 needs-validation" novalidate="">
+                                    <div class="col-6">
+                                        <label for="emailAddress" class="form-label visually-hidden">Email
+                                            Address</label>
+                                        <input type="email" class="form-control" id="emailAddress"
+                                            placeholder="Email" required="">
+                                        <div class="invalid-feedback">Please enter email.</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-primary mb-3">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                 <img src="/img/girl-email.png"class="img-fluid" alt="km">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="d-flex align-items-center justify-content-center copy my-2 p-2">
+            <p class="m-0 p-0">Copyright © 2024. All rights reserved.</p>
+            <p class="m-0 p-0">Made by Rohtash Verma</p>
+            <p class="m-0 p-0">Email: rohtashverma2580@gmail.com</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script src="./assest/js/jquery-3.7.1.min.js"></script>
+    <script src="./assest/js/owl.carousel.min.js"></script>
+    <script src="./assest/js/custom.js"></script>
+</body>
+
+</html>
